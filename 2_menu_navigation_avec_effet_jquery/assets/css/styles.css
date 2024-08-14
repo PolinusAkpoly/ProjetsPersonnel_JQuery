@@ -1,0 +1,359 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 70px;
+}
+
+#menu {
+    overflow: hidden;
+    display: flex;
+    /* margin-top: 200px; */
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* nav ul li a:hover {
+    background-color: black;
+} */
+.hover {
+    background-color: black;
+}
+
+#content {
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+
+}
+
+.logo #logofn {
+    color: brown;
+}
+
+.d-none {
+    display: none;
+}
+
+.divproduitsItem {
+    width: 200px;
+position: absolute;
+top: 50px;
+left: 78%;
+
+}
+
+#produitsItem {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(31, 28, 28);
+    width: 160px;
+    height: 120px;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+#produitsItem li {
+    list-style: none;
+    padding-left: 0px;
+
+
+}
+
+#produitsItem li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+@media (min-width: 687px) {
+    .divproduitsItem {
+    position: absolute;
+    top: 50px;
+    left: 65%;
+    
+    }
+    #menu {
+        
+        display: flex!important;
+      
+    
+    }
+
+}
+
+@media (max-width: 900px) {
+    .divproduitsItem {
+    position: absolute;
+    top: 50px;
+    left: 60%;
+    }
+   
+
+}
+
+@media (max-width:687px){
+   #menu{
+    display: none;
+    background-color: rgb(31, 28, 28);
+    position: absolute;
+    top: 52px;
+    left: 0;
+    padding: 10px;
+
+   }
+   .divproduitsItem {
+    position: absolute;
+    top: 52px;
+    left: 100px;
+    
+    
+    }
+    
+
+    header .menuresponsive
+    {
+       display: flex;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    margin-top: 20px;
+    }
+
+    header .menuresponsive::before
+    {
+    content:"";
+       display: flex;
+    background-color: brown;
+    width: 70px;
+    height: 4px;
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 8px 0px brown ;
+    }
+
+    header .menuresponsive::after   
+    {
+    content:"";
+       display: flex;
+    background-color: brown;
+    width: 70px;
+    height: 4px;
+    position: relative;
+    right: 20px;
+    bottom: -12px;
+    
+    }
+    
+    header .menuresponsive.menunouvo::before
+    {
+    
+    box-shadow: 0px 0px 0px brown;
+    transform: rotate(-135deg);
+    width: 100px;
+    top: 0px;
+    }
+    
+    
+    header .menuresponsive.menunouvo::after   
+    {
+    transform: rotate(135deg);
+    width: 100px;
+    bottom: 0px;
+    }
+
+    
+
+
+
+
+
+}
+
+/* @media (max-width:900px)
+{
+
+
+
+
+
+   .sect2 h1::before
+   {
+      width: 42% ;
+   }
+   
+   .sect2 h1::after
+    {  
+   width: 43% ;
+   }
+
+
+   .sect2 .petitvehicule 
+   {
+      margin-bottom: 50px;
+   }
+
+
+   .sect2 .vehicule
+   {
+       
+       margin-bottom: -5px;
+   }
+   
+
+
+   .sect3 h1::before
+   {
+   width: 40% ;
+   }
+   
+   .sect3 h1::after
+    {  
+   width: 40% ;
+   }
+
+
+   .sect3 .petitplaq 
+   {
+   
+   margin-bottom: 30px;
+   
+   }
+
+
+   .sect4 h1::before
+   {
+   width: 50% ;
+   }
+   
+   .sect4 h1::after
+    {  
+   width: 50% ;
+   }
+
+.sect4 .cart
+{
+   margin-bottom: 40px;
+}
+
+
+header nav
+{
+display: none;
+}
+
+header nav.navnouvo
+{
+display: flex;
+}
+
+
+header .menuresponsive
+{
+   display: flex;
+width: 40px;
+height: 30px;
+position: relative;
+margin-top: 20px;
+
+
+}
+
+
+
+header .menuresponsive::before
+{
+content:"";
+
+   display: flex;
+background-color: crimson;
+width: 70px;
+height: 4px;
+position: relative;
+top: -5px;
+box-shadow: 0px 8px 0px crimson ;
+
+}
+
+
+header .menuresponsive.menunouvo::before
+{
+
+box-shadow: 0px 0px 0px crimson ;
+transform: rotate(-135deg);
+width: 100px;
+top: 0px;
+}
+
+
+header .menuresponsive.menunouvo::after   
+{
+transform: rotate(135deg);
+width: 100px;
+bottom: 0px;
+}
+
+header .menuresponsive::after   
+{
+content:"";
+
+   display: flex;
+background-color: crimson;
+width: 40px;
+height: 4px;
+position: relative;
+right: 20px;
+bottom: -12px;
+
+}
+
+
+
+
+
+
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+

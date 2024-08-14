@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/js/app.js"></script>
+    <title>Menu Dynamique | Jquery</title>
+</head>
+<body>
+    <header>
+        
+    <nav>
+    <div class="logo">
+        <strong>Alegra<strong id="logofn">_Dev</strong></strong>
+    </div>
+
+    <div class="menuresponsive"></div>
+
+        <ul id="menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="#produits">Produits</a>
+            </li> 
+                <li><a href="#services">Services</a></li>
+                
+               
+            
+            
+        </ul>
+                
+
+    </nav>
+    
+    <div class="divproduitsItem d-none">
+        <ul id="produitsItem">
+        <li><a href="#">Produit 1</a></li>
+        <li><a href="#">Produit 2</a></li>
+        <li><a href="#">Produit 3</a></li>
+        <li><a href="#">Produit 4</a></li>
+    </ul>
+    </div>
+
+     
+</header>
+
+    <div id="content">
+        <div id="accueil" >
+            <h2>Accueil</h2>
+            <p>Bienvenue sur notre page d'accueil!</p>
+        </div>
+        <div id="apropos" class="d-none">
+            <h2>À propos</h2>
+            <p>Informations sur notre entreprise.</p>
+        </div>
+        <div id="contact" class="d-none">
+            <h2>Contact</h2>
+            <p>Contactez-nous pour plus d'informations.</p>
+        </div>
+        <div id="produits" class="d-none">
+            <h2>Produits</h2>
+            <p>Découvrez nos produits.</p>
+        </div>
+        <div id="services" class="d-none">
+            <h2>Services</h2>
+            <p>Nos services offerts.</p>
+        </div>
+    </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

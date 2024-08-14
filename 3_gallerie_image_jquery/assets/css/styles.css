@@ -1,0 +1,158 @@
+body,
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+header {
+   height: 60px;
+   background-color: teal;
+   margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: white;
+   position: sticky;
+   top: 0;
+}
+.galeries{
+   display: flex;
+   
+   align-items: center;
+   justify-content: center;
+}
+.container {
+   padding: 0px 120px;
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+
+.containerCurrentImage {
+   display: flex;
+   justify-content: center;
+   margin-top: -65px;
+
+}
+
+/* .containerCurrentImage .current-image img{
+width: 400px;
+height: 400px;
+
+
+} */
+.img{
+   cursor: pointer;
+}
+.img img{
+   width: 150px;
+   height: 150px;
+}
+.image {
+   display: none;
+
+}
+.active {
+   display: block;
+   
+
+}
+.active img {
+   width: 350px;
+   height: 350px;
+   transform: scale(1);
+}
+
+.buttons {
+   margin-top: 10px;
+}
+
+#prev, #next{
+/* border: 1px solid teal; */
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: teal;
+color: white;
+
+}
+
+.d-none{
+   display: none!important;
+}
+.options{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+
+}
+.zomPivot{
+display: flex;
+gap: 10px;
+border: 1px solid teal;
+color: teal;
+padding: 10px;
+
+}
+#moin em{
+   /* padding-left: 10px!important; */
+   margin-top: -8px;
+   margin-left: -4px;
+}
+
+.zom, .pivot{
+   display: flex;
+   
+justify-content: center;
+align-items: center;
+border: 1px solid teal;
+gap: 10px;
+height: 30px;
+width: 140px;
+
+
+}
+.fa-solid{
+border: 1px solid teal;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+padding-left: 5px;
+padding-top: 4px;
+background-color: teal;
+color: white;
+
+}
+#moin, #plus, #rotateGauche, #rotateDrote{
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+#home{
+   cursor: pointer;
+}
+#diasporama{
+   cursor: pointer;
+}
+#slideshowImage{
+display: none;
+width: 600px;
+height: 400px; 
+position: absolute;
+top: 30%;
+left: 30%;
+transform: translate(-50px, -50px);
+}
+
+
+
+

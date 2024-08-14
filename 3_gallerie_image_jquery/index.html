@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./assets/js/app.js"></script>
+    <title>Gallerie D'images | JQuery</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="home">Gallerie D'images</h1>
+        <h1 id="diasporama">Diaporama</h1>
+    </header>
+    
+    <img id="slideshowImage" src="" alt="Slideshow Image" >
+
+    <div class="galeries">
+
+        <div id="prev" class="d-none">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </div>
+
+        <div class="container"></div>
+
+        <div id="next" class="d-none">
+            <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+
+    </div>
+
+    <div class="options d-none">
+    <div class="zomPivot">
+        <div class="zom">
+            <strong id="moin" class="fa-solid"> <em >-</em></strong>
+            <strong>ZOOME</strong>
+            <strong id="plus"><i class="fa-solid fa-plus"></i></strong>
+            
+        </div>
+        <div class="pivot">
+            <strong id="rotateGauche" ><i class="fa-solid fa-arrows-spin"></i></strong>
+            <strong>PIVOTE</strong>
+            <strong id="rotateDrote"><i class="fa-solid fa-arrows-spin"></i></strong>
+        </div>
+    </div>
+</div>
+
+
+    <div class="containerCurrentImage"></div>
+
+
+
+</body>
+
+</html>

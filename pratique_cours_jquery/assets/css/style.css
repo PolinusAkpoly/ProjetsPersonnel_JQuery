@@ -1,0 +1,83 @@
+body{
+margin: 20px 100px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: darkgray;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+  margin-top: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+.red{
+    color: red;
+   
+}
+
+.eltsFrere-animate{
+    display: flex;
+    
+}
+button{
+cursor: pointer;
+border: none;
+outline: none;
+background-color: cadetblue;
+color: white;
+width: 80px;
+height: 30px;
+font-weight: bolder;
+font-size: 16px;
+border-radius: 4px;
+margin-bottom: 8px;
+}
+button:hover{
+background-color: blue;
+box-shadow: 2px 2px 2px 2px burlywood;
+
+
+}
+.objet{
+    /* border: 1px solide blue; */
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+}
+.animate{
+margin-left: 20px;
+
+}
+.user-item{
+    
+    padding:7px;
+    margin:7px;
+    
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    box-shadow: 1px 2px 8px #cfcdcd;
+}
+.user-item:hover{
+    background-color: rgb(3, 31, 31);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
